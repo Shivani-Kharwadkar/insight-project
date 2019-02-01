@@ -1,10 +1,10 @@
 # Table of Contents
-1. [Problem Statement] (README.md#problem-statement)
-1. [Tech Stack] (README.md#tech-stack)
-1. [Dataset Information] (README.md#dataset-information)
-1. [Implementation] (README.md#implementation)
+1. Problem Statement
+1. Tech Stack
+1. Dataset Information
+1. Implementation
 1. Running the code
-1. [Future Scope] (README.md#future-scope)
+1. Future Scope
 
 # Problem Statement
 An online pharmaceutical company wants to aggregate their drug sales. An aggregated file needs to be created showing a list of all drugs, the total number of UNIQUE individuals who prescribed the medication, and the total drug cost, which must be listed in descending order based on the total drug cost and if there is a tie, drug name in ascending order.
@@ -13,7 +13,7 @@ An online pharmaceutical company wants to aggregate their drug sales. An aggrega
 Python 2.7 is used create the required list of drug sales. No external libraries were.
 
 # Dataset Information
- Input Dataset:
+Input Dataset:
 The input data file is a comma-seperated text file. The dataset contains information about drug prescribers in 5 columns: id, prescriber_last_name, prescriber_first_name, drug_name, drug_cost.
 
 Output Dataset:
