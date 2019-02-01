@@ -10,7 +10,7 @@
 An online pharmaceutical company wants to aggregate their drug sales. An aggregated file needs to be created showing a list of all drugs, the total number of UNIQUE individuals who prescribed the medication, and the total drug cost, which must be listed in descending order based on the total drug cost and if there is a tie, drug name in ascending order.
 
 # Tech Stack
-Python 2.7 is used create the required list of drug sales. No external libraries were.
+Python 2.7 is used create the required list of drug sales. No external libraries were used.
 
 # Dataset Information
 Input Dataset:
