@@ -43,7 +43,7 @@ The input data file 'de_cc_data.txt', 1.1 GB takes 68 seconds on an average
 # Running the code
 To run the code, go to the insight_testsuite folder within the repository and run the ./run.sh: insight_testsuite~$ ./run.sh
 
-The output can be found at insight-data-challenge/output/top_cost_drug.txt
+The output can be found at insight-project/output/top_cost_drug.txt
 
 # Future Scope
 * The input dataset will not always be cleaned and formated. A new function, can be added which will clean or format the data as and when required and called before the data is stored in dictionary.
