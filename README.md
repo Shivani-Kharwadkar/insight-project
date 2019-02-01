@@ -47,4 +47,4 @@ The output can be found at insight-project/output/top_cost_drug.txt
 
 # Future Scope
 * The input dataset will not always be cleaned and formated. A new function, can be added which will clean or format the data as and when required and called before the data is stored in dictionary.
-* If the input data file becomes too large (more than 50GB) then Map Reduce technique can be incorporated. The large file will be divided into smaller chunks and can be run on cluster of multiple computers. Once each file is processed, then all these files will be merged to create the final output file.
+* If the input data file becomes too large (more than 50GB) then Map Reduce technique can be incorporated. The large file will be divided into smaller chunks and can be run on cluster of multiple computers parallely. Once each file is processed, then all these files will be merged to create the final output file.
