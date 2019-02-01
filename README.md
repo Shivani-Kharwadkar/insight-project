@@ -28,7 +28,7 @@ Each line of this file contains following fields:
 Assumptions:
 * The input dataset is cleaned.
 * If drug_cost is not a valid number or is an empty string, then the record is filtered out and not considered 
-* If prescriber_last_name and prescriber_first_name are not case-sensitive.
+* prescriber_last_name and prescriber_first_name are not case-sensitive.
 
 Approach:
 1. The input data file is read line by line, is 3 times faster than loading the whole file at once.
@@ -37,11 +37,14 @@ Approach:
 4. Once all of the data is processed into dictionaries, it is sorted in descending order of the total drug cost and if there is a tie, in ascending order of drug name.
 5 This aggregated and sorted data is the saved in output file 'top_cost_drug.txt'.
 
-# Running the code
-To run the code, go to the pharmacy_counting folder and run the ./run.sh: pharmacy_counting~$ ./run.sh
+Performance:
+The input data file 'de_cc_data.txt', 1.1 GB takes 68 seconds on an average
 
-The output can be found at pharmacy_counting/output/top_cost_drug.txt
+# Running the code
+To run the code, go to the insight_testsuite folder within the repository and run the ./run.sh: insight_testsuite~$ ./run.sh
+
+The output can be found at insight-data-challenge/output/top_cost_drug.txt
 
 # Future Scope
 * The input dataset will not always be cleaned and formated. A new function, can be added which will clean or format the data as and when required and called before the data is stored in dictionary.
-* If the input data file becomes too large (more than 50GB) then Map Reduce technic can be incorporated. The large file will be divided into smaller chunks and can be run on cluster of multiple computers. Once each file is processed, then all these files will be merged to create the final output file.
+* If the input data file becomes too large (more than 50GB) then Map Reduce technique can be incorporated. The large file will be divided into smaller chunks and can be run on cluster of multiple computers. Once each file is processed, then all these files will be merged to create the final output file.
